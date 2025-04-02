@@ -19,7 +19,7 @@
                             <td>{{$user->id}}</td>
                             <td>{{$user->name}}</td>
                             <td>{{$user->email}}</td>
-                            <td>{{$user->phone}}</td>
+                            {{-- <td>{{$user->phone}}</td> --}}
                             <td><a href="{{route('showUpdate',['id' => $user->id])}}">Edit</a> | 
                                 <a href="#">View</a> | 
                                 <a href="#">Delete</a></td>

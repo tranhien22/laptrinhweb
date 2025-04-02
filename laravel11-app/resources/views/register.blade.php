@@ -27,10 +27,13 @@
             </div>
             
             <div class="form-group">
-                <label for="confirm-password">Phone cua ban </label>
-                <input type="text" id="phone " name="phone">
+                <label for="phone">phone</label>
+                <input type="text" id="phone" name="phone">
             </div>
-            
+            <div class="form-group">
+                <label for="address">address</label>
+                <input type="text" id="address" name="address">
+            </div>
            
             <div class="button-group">
                 <a href="#" class="have-account">Đã có tài khoản</a>

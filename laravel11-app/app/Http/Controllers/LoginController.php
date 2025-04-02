@@ -39,8 +39,8 @@ class LoginController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'phone' => $request->phone
-            // 'address' => $request->address,
+            'phone' => $request->phone,
+            'address' => $request->address
             // 'sdd'=>$request->sdd,
             // 'mailne'=>$request->mailne,
           
@@ -55,6 +55,8 @@ class LoginController extends Controller
         $user->email = $input['email'];
         $user->password = Hash::make($input['password']);
         $user->phone = $input['phone'];
+        $user->address = $input['address'];
+       
         $user->save();
         return redirect(route('showList'))->withSuccess('you have signed-in');
     }

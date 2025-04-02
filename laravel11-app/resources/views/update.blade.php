@@ -27,10 +27,16 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" value="{{$user->email}}">
             </div>
+          
             <div class="form-group">
                 <label for="phone">phone</label>
-                <input type="text" id="phone" name="phone" value="{{$user->phone}}">
+                <input type="text" id="phone" name="phone"value="{{$user->phone}}" >
             </div>
+            <div class="form-group">
+                <label for="address">address</label>
+                <input type="text" id="address" name="address"value="{{$user->address}}">
+            </div>
+        
             
             <div class="button-group">
                 <a href="#" class="have-account">Đã có tài khoản</a>

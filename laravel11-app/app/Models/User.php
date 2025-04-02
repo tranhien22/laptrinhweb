@@ -21,8 +21,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'phone'
-        // 'address',
+        'phone',
+        'address'
         // 'sdd',
         // 'mailne',
         // 'nhaRieng',
