@@ -3,7 +3,7 @@
     
 @section('content')  
         <div class="registration-form">
-            <form action="{{route('postRegister')}}" method="POST">
+            <form action="{{route('postRegister')}}" method="POST" enctype="multipart/form-data">
             @csrf
             <h2>Màn hình đăng ký</h2>
             
@@ -11,6 +11,7 @@
                 <label for="username">Name</label>
                 <input type="text" id="username" name="name">
             </div>
+           
             <div class="form-group">
                 <label for="username">Email</label>
                 <input type="text" id="email" name="email">
@@ -33,6 +34,10 @@
             <div class="form-group">
                 <label for="github">Github</label>
                 <input type="text" id="github" name="github">
+            </div>
+            <div class="form-group">
+                <label for="files">Upload Files</label>
+                <input type="file" id="files" name="files[]" multiple>
             </div>
            
             <div class="button-group">

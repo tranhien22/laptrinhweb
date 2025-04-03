@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('password');
              $table->string('age');
              $table->string('github');
+            //  $table->string('avatar');
             $table->rememberToken();
             $table->timestamps();
         });
