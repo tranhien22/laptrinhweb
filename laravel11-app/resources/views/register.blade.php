@@ -26,14 +26,14 @@
                 <input type="password" id="confirm-password" name="confirm-password">
             </div>
             
-            {{-- <div class="form-group">
-                <label for="phone">phone</label>
-                <input type="text" id="phone" name="phone">
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="text" id="age" name="age">
             </div>
             <div class="form-group">
-                <label for="address">address</label>
-                <input type="text" id="address" name="address">
-            </div> --}}
+                <label for="github">Github</label>
+                <input type="text" id="github" name="github">
+            </div>
            
             <div class="button-group">
                 <a href="#" class="have-account">Đã có tài khoản</a>

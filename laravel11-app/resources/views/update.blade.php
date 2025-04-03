@@ -28,14 +28,14 @@
                 <input type="email" id="email" name="email" value="{{$user->email}}">
             </div>
           
-            {{-- <div class="form-group">
-                <label for="phone">phone</label>
-                <input type="text" id="phone" name="phone"value="{{$user->phone}}" >
+            <div class="form-group">
+                <label for="ageage">Age</label>
+                <input type="text" id="age" name="age"value="{{$user->age}}" >
             </div>
             <div class="form-group">
-                <label for="address">address</label>
-                <input type="text" id="address" name="address"value="{{$user->address}}">
-            </div> --}}
+                <label for="github">Github</label>
+                <input type="text" id="github" name="github"value="{{$user->github}}">
+            </div> 
         
             
             <div class="button-group">
